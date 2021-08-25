@@ -1,4 +1,4 @@
-const routes = require("../songs/routes");
+const routes = require("./routes");
 const CollaborationsHandler = require("./handler")
 
 module.exports = {
