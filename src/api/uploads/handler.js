@@ -27,7 +27,7 @@ class UploadsHandler {
             if (error instanceof ClientError) {
                 const response = h.response({
                     status: 'fail',
-                    message: error.statusCode,
+                    message: error.message,
                 });
                 response.code(error.statusCode);
                 return response;
